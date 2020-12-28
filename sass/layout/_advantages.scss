@@ -1,0 +1,91 @@
+/* ===== Advantages =====*/
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-description:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantage-icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.advantages-item {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-details {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+/* ===== What we are doing ===== */
+.activity {
+  padding-bottom: 94px;
+}
+
+.activity-main {
+  width: 1170px;
+  height: 386px;
+}
+.activity-list {
+  display: flex;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.activity-item {
+  width: 370px;
+  height: 294px;
+}
+
+.activity-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.activity-item {
+  position: relative;
+}
+
+.activity-item-description {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 70px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+  justify-content: center;
+  background-color: rgba(47, 48, 58, 0.8);
+}
