@@ -9,19 +9,17 @@
   background-color: rgba(0, 0, 0, 0.2);
 
   transition: all 250ms linear;
-}
 
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 
-.backdrop.is-hidden {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    .modal {
+      transform: translate(-50%, -50%) scale(0);
+      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+  }
 }
